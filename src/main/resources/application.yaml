@@ -3,5 +3,5 @@ spring:
     name: user.auth
 
 jwt:
-  secret: 117cb6f265ab0380417e1ec45ef30a8f08c859c33305183834e25913f06cb7af
+  secret: ${{ secrets.JWT_TOKEN }}
 
